@@ -35,9 +35,12 @@ void FindWords(string[] arr, string[] arr2)
     }
 }
 
-/*void PrintArray(int[] arr)
+void PrintArray(int[] arr)
 {
-
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.WriteLine($" {arr[i]}");
+    }
 }
-Console.WriteLine(array); */
+
 
